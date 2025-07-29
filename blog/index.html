@@ -1,0 +1,96 @@
+---
+layout: default
+title: Blog
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 5
+  permalink: '/blog/page:num/'
+---
+
+<!-- Banner Section -->
+<section class="page-banner">
+  <div class="banner-overlay">
+    <h1 class="banner-title">Blog</h1>
+  </div>
+  <img src="/assets/images/blog-banner.jpg" alt="Blog Banner" class="banner-image">
+</section>
+
+<!-- Container for Main Blog Post -->
+<section class="main-blog-post">
+  <h1 class="post-title">Loading...</h1>
+  <p class="post-date"></p>
+  <div class="post-content">Please wait...</div>
+  <p class="post-author"></p>
+</section>
+<hr class="divider">
+
+<!-- Recent Posts List (includes all 5 from pagination) -->
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <ul>
+    {% for post in paginator.posts %}
+      <li>
+        <a href="?post={{ post.url }}" onclick="loadBlog('{{ post.url }}'); return false;">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- Pagination Controls -->
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">← Newer</a>
+  {% endif %}
+  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Older →</a>
+  {% endif %}
+</nav>
+{% endif %}
+
+<script>
+  async function loadBlog(url) {
+    try {
+      const res = await fetch(url);
+      const html = await res.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+
+      const title = doc.querySelector('.post-title')?.innerHTML || '';
+      const date = doc.querySelector('.post-date')?.innerHTML || '';
+      const content = doc.querySelector('.post-content')?.innerHTML || '';
+      const author = doc.querySelector('.post-author')?.innerHTML || '';
+
+      document.querySelector('.main-blog-post').innerHTML = `
+        <h1 class="post-title">${title}</h1>
+        <p class="post-date">${date}</p>
+        <div class="post-content">${content}</div>
+        <p class="post-author">${author}</p>
+      `;
+
+      // Update the URL without reloading
+      history.replaceState(null, '', '?post=' + url);
+
+    } catch (err) {
+      console.error("Failed to load blog post:", err);
+    }
+  }
+
+  // On page load, check for ?post= URL param
+  const params = new URLSearchParams(window.location.search);
+  const initialPost = params.get('post');
+
+  if (initialPost) {
+    loadBlog(initialPost);
+  } else {
+    // Load the first post by default (only if not paginated away from it)
+    const firstPostUrl = document.querySelector('.recent-posts a')?.getAttribute('href').replace('?post=', '');
+    if (firstPostUrl) {
+      loadBlog(firstPostUrl);
+    }
+  }
+</script>
