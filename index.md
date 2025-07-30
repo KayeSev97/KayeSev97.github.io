@@ -10,7 +10,7 @@ title: Home
   <h3>Deputy Principal | Educational Leader | PhD Candidate | International Keynote Speaker</h3>
 
   <p class="intro-paragraph">
-    Welcome to my professional space. I am passionate about transforming education through leadership, research, and innovative practice. My journey has been shaped by a deep commitment to learning and creating opportunities for students and educators alike.
+    Welcome to my professional space. I am passionate about transforming education through leadership, research, and innovative practice. My journey has been shaped by a deep commitment to learning and creating opportunities for students and educators alike. 
   </p>
 
   <blockquote class="home-quote">
