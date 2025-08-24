@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="home-intro">
-  <img src="/assets/images/home_img.jpg" alt="Khalil Rahman" class="profile-img">
+  <img src="/assets/images/headshot.jpg" alt="Khalilur Rahman" class="profile-img">
 
   <h2>Khalilur Rahman</h2>
   <h3>Deputy Principal | Educational Leader | PhD Candidate | International Keynote Speaker</h3>

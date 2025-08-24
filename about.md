@@ -43,5 +43,5 @@ permalink: /about/
       <li>Mentored over 40 educators through professional development programs</li>
       <li>Committed to equity, innovation, and student-centered education</li>
     </ul>
-  </div>-->
-</section>
+  </div>
+</section>-->
