@@ -8,20 +8,20 @@ permalink: /about/
   <div class="banner-overlay">
     <h1 class="banner-title">About Me</h1>
   </div>
-  <img src="/assets/images/about-banner.jpg" alt="About Banner Image" class="banner-image">
+  <img src="/assets/images/gallery1.jpg" alt="About Banner Image" class="banner-image">
 </section>
 
 <section class="section">
   <p>
-    I am an experienced educational leader with a passion for inspiring others, driving change, and building inclusive learning environments. Throughout my career, I have worked closely with both students and educators to shape academic success and personal growth.
+    I am an experienced educational leader, Deputy Principal, and PhD candidate with over two decades in the teaching profession. My journey has been defined by a deep commitment to learner-centered education, inclusive leadership, and continuous professional growth.
   </p>
 
   <p>
-    My journey has been marked by a commitment to lifelong learning, equity in education, and the belief that meaningful progress stems from collaborative leadership and strategic vision.
+    I have presented at international conferences, including in Finland and Canada, and remain an active voice in educational innovation through my work with IDEC. My core philosophy is rooted in “Leading Through Service, Learning Through Action,” and I strive to inspire meaningful change in every learning environment I engage with. Whether working with students, staff, or global networks, I bring vision, integrity, and a passion for equitable education.
   </p>
 </section>
 
-<hr class="divider">
+<!--<hr class="divider">
 
 <section class="section about-columns">
   <div class="about-box">
@@ -43,5 +43,5 @@ permalink: /about/
       <li>Mentored over 40 educators through professional development programs</li>
       <li>Committed to equity, innovation, and student-centered education</li>
     </ul>
-  </div>
+  </div>-->
 </section>

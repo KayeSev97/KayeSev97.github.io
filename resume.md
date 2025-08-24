@@ -15,16 +15,19 @@ permalink: /resume/
   <div class="resume-preview">
     <h3>Education</h3>
     <ul>
-      <li><strong>PhD in Education Leadership</strong> — University Name (Expected 2025)</li>
-      <li><strong>M.Ed. in Curriculum & Instruction</strong> — Institution Name (2020)</li>
-      <li><strong>B.A. in English and Education</strong> — Institution Name (2016)</li>
+      <li><strong>PhD in Education Leadership</strong> — Unicaf University, Cyprus</li>
+      <li><strong>M.Ed. in Curriculum & Instruction</strong> — University of South Wales, UK</li>
+      <li><strong>BSc</strong> — National University of Bangladesh</li>
+      <li><strong>Diploma in Business Management</strong> — Oxford Academy, Cape Town, South Africa</li>
+      <li><strong>National Professional Diploma in Education</strong> — Walter Sisulu University, South Africa</li>
+      <li><strong>Advanced diploma in Professional Education Development</strong> — University of Northwest, South Africa</li>
     </ul>
 
     <h3>Professional Experience</h3>
     <ul>
-      <li><strong>Deputy Principal</strong> — XYZ Secondary School (2021–Present)</li>
-      <li><strong>Department Head</strong> — ABC High School (2018–2021)</li>
-      <li><strong>Senior Educator</strong> — DEF School (2016–2018)</li>
+      <li><strong>Deputy Principal WCED</strong> — (2021–Present)</li>
+      <li><strong>Senior Teacher & Acting Departmental Head </strong> — (2012–2021)</li>
+      <li><strong>Educator</strong> — (1999–2012)</li>
     </ul>
 
     <h3>Skills</h3>
@@ -33,6 +36,7 @@ permalink: /resume/
       <li>Curriculum Development</li>
       <li>Teacher Mentorship</li>
       <li>Educational Technology Integration</li>
+      <li>Master Trainer</li>
     </ul>
   </div>
 </section>
@@ -40,6 +44,6 @@ permalink: /resume/
 <hr class="divider">
 
 <section class="section resume-download">
-  <h3>Download My Full Resume (PDF)</h3>
-  <a href="/assets/docs/khalil-resume.pdf" class="resume-button" download>📄 Download Resume</a>
+  <h3>Please contact me for my full resume</h3>
+  <!--<a href="/assets/docs/khalil-resume.pdf" class="resume-button" download>📄 Download Resume</a>-->
 </section>

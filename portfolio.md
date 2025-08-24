@@ -15,29 +15,46 @@ permalink: /portfolio/
 <!-- Conference Section -->
 <section class="section">
   <h2>Conference Presentation</h2>
-  <p><strong>National Educational Leadership Conference</strong> — March 2024</p>
-  <p>
-    Presented a session titled “Equity in the Digital Age: Implementing Inclusive Strategies for Online Learning.”
-    The session focused on practical frameworks and success stories from under-resourced schools.
-  </p>
+  <p><strong>Keynote speaker at the International Democratic Education Conference, Finland</strong></p>
+</section>
+
+<hr class="divider">
+
+<section class="section">
+  <h2>Conference Presentation</h2>
+  <p><strong>Speaker at Early Year Childhood Conference, Vancouver, Canada</strong></p>
 </section>
 
 <hr class="divider">
 
 <!-- Image Gallery Section -->
 <section class="section">
-  <h2>Community Engagement Events</h2>
+  <h2>Image gallery</h2>
   <div class="image-grid">
-    <img src="/assets/images/gallery1.jpg" alt="Event 1">
-    <img src="/assets/images/gallery2.jpg" alt="Event 2">
-    <img src="/assets/images/gallery3.jpg" alt="Event 3">
-    <img src="/assets/images/gallery4.jpg" alt="Event 4">
+    <img src="/assets/images/gallery1.jpg" alt="gallery1">
+    <img src="/assets/images/gallery2.jpg" alt="gallery2">
+    <img src="/assets/images/gallery3.jpg" alt="gallery3">
+    <img src="/assets/images/gallery4.jpg" alt="gallery4">
+  </div>
+
+  <div class="image-grid">
+    <img src="/assets/images/gallery5.jpg" alt="gallery5">
+    <img src="/assets/images/gallery6.jpg" alt="gallery6">
+    <img src="/assets/images/gallery7.jpg" alt="gallery7">
+    <img src="/assets/images/gallery8.jpg" alt="gallery8">
+  </div>
+
+  <div class="image-grid">
+    <img src="/assets/images/gallery9.jpg" alt="gallery9">
+    <img src="/assets/images/gallery10.jpg" alt="gallery10">
+    <img src="/assets/images/gallery11.jpg" alt="gallery11">
+    <img src="/assets/images/gallery12.jpg" alt="gallery12">
   </div>
 </section>
 
-<hr class="divider">
+<!--<hr class="divider">
 
-<!-- Featured Project Section -->
+<!--Featured Project Section
 <section class="section project-highlight">
   <div class="project-content">
     <img src="/assets/images/project.jpg" alt="Project Image">
@@ -49,4 +66,4 @@ permalink: /portfolio/
       </p>
     </div>
   </div>
-</section>
+</section>-->
