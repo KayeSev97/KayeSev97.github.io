@@ -47,18 +47,19 @@ permalink: /portfolio/
     </div>
   </div>
 
-  <div class="image-grid">
-    <img src="/assets/images/gallery5.jpg" alt="gallery5">
-    <img src="/assets/images/gallery6.jpg" alt="gallery6">
-    <img src="/assets/images/gallery7.jpg" alt="gallery7">
-    <img src="/assets/images/gallery8.jpg" alt="gallery8">
+  <div class="image-grid-custom">
+    <div class="left-column">
+      <img src="/assets/images/gallery6.jpg" alt="gallery5">
+      <img src="/assets/images/gallery8.jpg" alt="gallery7">
+    </div>
+    <div class="right-column">
+      <img src="/assets/images/gallery12.jpg" alt="gallery11">
+    </div>
   </div>
 
   <div class="image-grid">
     <img src="/assets/images/gallery9.jpg" alt="gallery9">
     <img src="/assets/images/gallery10.jpg" alt="gallery10">
-    <img src="/assets/images/gallery11.jpg" alt="gallery11">
-    <img src="/assets/images/gallery12.jpg" alt="gallery12">
   </div>
 </section>
 
