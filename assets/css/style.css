@@ -23,11 +23,12 @@ header {
 }
 
 header h1 {
+  font-size: 36pt;
   margin-bottom: 10px;
 }
 
 .home-intro h2 {
-  font-size: 26pt;
+  font-size: 28pt;
 }
 
 .home-intro h3 {
@@ -378,6 +379,38 @@ footer {
   background-color: #f9f9f9;
 }
 
+.image-grid-custom {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  gap: 12px;
+  margin-top: 20px;
+  height: 520px; /* control total height */
+}
+
+.left-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* two equal rows for stacked images */
+  gap: 12px;
+}
+
+.left-column img,
+.right-column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column img {
+  flex: 1; /* take full column height */
+}
+
 
 /* Project Section */
 .project-highlight {
@@ -386,6 +419,14 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.section h2 {
+  font-size: 20pt;
+}
+
+.section p {
+  font-size: 16pt;
 }
 
 .project-content {
