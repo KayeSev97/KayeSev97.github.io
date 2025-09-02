@@ -384,7 +384,7 @@ footer {
 .image-grid-custom {
   display: grid;
   grid-template-columns: 1fr 1fr; /* left wider, right narrower */
-  grid-template-rows: 1fr 1fr;    /* two rows */
+  grid-template-rows: 250px 250px;    /* two rows */
   gap: 12px;
   margin-top: 20px;
   grid-template-areas:
