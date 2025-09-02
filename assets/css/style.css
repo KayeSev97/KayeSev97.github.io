@@ -383,8 +383,8 @@ footer {
 /* Custom layout: 2 stacked on the left, 1 tall on the right */
 .image-grid-custom {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* left wider, right narrower */
-  grid-template-rows: 250px 250px;    /* two rows */
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  grid-template-rows: 250px 250px; /* two rows */
   gap: 12px;
   margin-top: 20px;
   grid-template-areas:
@@ -392,18 +392,28 @@ footer {
     "left-bottom right";
 }
 
+/* Default image styling */
 .image-grid-custom img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
   border-radius: 4px;
   background-color: #f9f9f9;
 }
 
-/* Map each image to its grid cell */
-.image-grid-custom img:nth-child(1) { grid-area: left-top; }
-.image-grid-custom img:nth-child(2) { grid-area: left-bottom; }
-.image-grid-custom img:nth-child(3) { grid-area: right; }
+/* Map images */
+.image-grid-custom img:nth-child(1) { 
+  grid-area: left-top; 
+  height: 100%; /* fill row height */
+}
+.image-grid-custom img:nth-child(2) { 
+  grid-area: left-bottom; 
+  height: 100%;
+}
+.image-grid-custom img:nth-child(3) { 
+  grid-area: right; 
+  height: 100%; /* allow spanning */
+  grid-row: span 2; /* span both rows */
+}
 
 
 
