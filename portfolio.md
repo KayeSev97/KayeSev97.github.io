@@ -43,7 +43,6 @@ permalink: /portfolio/
   <img src="/assets/images/gallery11.jpg" alt="gallery11">
 </div>
 
-<!--
 <div class="image-grid-custom">
   <img src="/assets/images/gallery6.jpg" alt="gallery6">
   <img src="/assets/images/gallery8.jpg" alt="gallery8">
