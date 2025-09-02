@@ -44,14 +44,14 @@ permalink: /portfolio/
 </div>
 
 <div class="image-grid-custom">
-  <img src="/assets/images/gallery6.jpg" alt="gallery6">
-  <img src="/assets/images/gallery8.jpg" alt="gallery8">
+  <img src="/assets/images/gallery9.jpg" alt="gallery9">
+  <img src="/assets/images/gallery10.jpg" alt="gallery10">
   <img src="/assets/images/gallery12.jpg" alt="gallery12">
 </div>
 
 <div class="image-grid">
-  <img src="/assets/images/gallery9.jpg" alt="gallery9">
-  <img src="/assets/images/gallery10.jpg" alt="gallery10">
+  <img src="/assets/images/gallery6.jpg" alt="gallery6">
+  <img src="/assets/images/gallery8.jpg" alt="gallery8">
 </div>
 </section>
 
