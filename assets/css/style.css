@@ -22,7 +22,7 @@ header {
   align-items: center;
 }
 
-header h1 {
+.home-intro h1 {
   font-size: 36pt;
   margin-bottom: 10px;
 }
