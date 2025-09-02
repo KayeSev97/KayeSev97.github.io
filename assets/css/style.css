@@ -393,8 +393,8 @@ footer {
 }
 
 .image-grid-custom img {
-  width: 250px;
-  height: 100%;
+  width: 100%;
+  height: 250px;
   object-fit: cover;
   border-radius: 4px;
   background-color: #f9f9f9;
