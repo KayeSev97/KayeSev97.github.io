@@ -383,7 +383,7 @@ footer {
 /* Custom layout: 2 stacked on the left, 1 tall on the right */
 .image-grid-custom {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* left wider, right narrower */
+  grid-template-columns: 1fr 1fr; /* left wider, right narrower */
   grid-template-rows: 1fr 1fr;    /* two rows */
   gap: 12px;
   margin-top: 20px;
@@ -393,7 +393,7 @@ footer {
 }
 
 .image-grid-custom img {
-  width: 100%;
+  width: 250px;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
