@@ -22,6 +22,10 @@ header {
   align-items: center;
 }
 
+.home-intro{
+  width: 80vw
+}
+
 .home-intro h1 {
   font-size: 36pt;
   margin-bottom: 10px;
